@@ -28,13 +28,11 @@ Functionalities:
 -
 i) Supports for populating the dummy data
     python3 manage.py seed --activities 1   (default -5)
-    -
+    
     The above command will insert the dummy data into User and ActivityPeriod models using Factory_boy and Faker
     
-    
-ii) This project supports only GET request
+    ii) This project supports only GET request
       cmd# curl -X GET http://127.0.0.1:8000/api
- -
     The above command will serves the data in JSON format as below
 
 {
